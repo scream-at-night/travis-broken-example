@@ -2,5 +2,5 @@ sudo: required
 language: node_js
 node_js: node
 before_script:
-  - npm install casperjs -g
+  - npm install -g casperjs
 script: npm test
