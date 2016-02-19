@@ -3,4 +3,4 @@ language: node_js
 node_js: node
 before_script:
   - npm install -g casperjs
-script: npm test
+script: casperjs test.js
