@@ -1,6 +1,9 @@
 sudo: required
-language: node_js
-node_js: node
+language: php
+php:
+  - 5.5
 before_script:
   - npm install -g casperjs
-script: npm test
+script:
+  - phpunit Test.php
+  - npm test
