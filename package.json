@@ -1,0 +1,23 @@
+{
+  "name": "travis-broken-example",
+  "version": "1.0.0",
+  "description": "a test for travis-ci",
+  "main": "index.js",
+  "scripts": {
+    "test": "casperjs test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scream-at-night/travis-broken-example.git"
+  },
+  "keywords": [
+    "travis",
+    "node.js"
+  ],
+  "author": "zjh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scream-at-night/travis-broken-example/issues"
+  },
+  "homepage": "https://github.com/scream-at-night/travis-broken-example"
+}
